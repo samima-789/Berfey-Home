@@ -5,7 +5,14 @@
   box-sizing: border-box;
 }
 
+html, body {
+  font-family: 'Montserrat', sans-serif;
+}
 
+.text-custom {
+  color: #FD5F25;
+  font-family: "Jost";
+} 
 
 ul {
   margin: 0;
@@ -18,6 +25,10 @@ ul li {
 
 button:focus {
   outline: 0;
+}
+
+a{
+  text-decoration: none;
 }
 
 img {
@@ -80,13 +91,13 @@ img {
 }
 
 .btn-custom-primary {
-  border: 1px solid #FD5F25;
-  background: #FD5F25;
+  background-color: #FD5F25;
   color: #fff;
 }
 
 .btn-custom-primary:hover {
   color: #FD5F25;
+  border: 1px solid #FD5F25;
   background: transparent;
 }
 
